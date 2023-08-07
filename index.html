@@ -20,21 +20,24 @@
 </head>
 
 <body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
     <aside class="menu white-bg">
         <div class="main-content 
      menu-content">
-            <h1>
-                <a href="#">LOGO</a>
+            <h1  onclick="getElementById('close-menu').checked = false;">
+                <a href="#">TechBuild</a>
             </h1>
             <nav>
-                <ul>
-                    <li><a href="#intro">intro</a></li>
-                    <li><a href="#top3">top 3</a></li>
-                    <li><a href="#grid-one">steps</a></li>
-                    <li><a href="#gallery">gallery</a></li>
-                    <li><a href="#grid-two">grid</a></li>
-                    <li><a href="#pricing">pricing</a></li>
-                    <li><a href="#contact">contact</a></li>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">INTRO</a></li>
+                    <li><a href="#top3">TOP 3</a></li>
+                    <li><a href="#grid-one">ABOUT</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#grid-two">WORK</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
         </div>
@@ -47,9 +50,8 @@
             <div class="intro-text-content">
                 <h2>Building digital
                     products & brands</h2>
-                <p>Quick can manor smart money hopes worth too.
-                    Comfort produce husband boy her had hearing.
-                    Law others theirs passed but wishes. You day real less till dear read.</p>
+                <p>We are passionate about crafting digital products and brands that transcend boundaries and forge lasting connections.
+                    At the core of our approach lies the seamless fusion of technology and creativity.</p>
             </div>
             <div class="intro-img">
                 <img src="assets/img/production.svg" alt="Representação de um logo: duas pessoas sentadas em uma mesa, olhando uma para a outra com interesse, enquanto focam a atenção na tela de um computador.
@@ -81,32 +83,25 @@
 
     <section id="grid-one" class=" grid-one main-bg section">
         <div class="main-content grid-one-content">
-            <h2 class="grid-main-heading">The Steps</h2>
-            <p class="grid-description">Uma breve decrição</p>
+            <h2 class="grid-main-heading">About Us</h2>
+            <p class="grid-description">A brief description</p>
 
             <div class="grid">
                 <article>
-                    <h3>Teste 1</h3>
-                    <p>Explore the innovative features that make this product unique.
-                        Learn how it can significantly improve your life.
-                        Visit our page to gain insights into how our solution stands out from the competition and how it
-                        can meet your needs.</p>
+                    <h3>Exploration</h3>
+                    <p>From mobile app development to AI integration, we are constantly seeking ways to apply emerging technologies to create
+                        innovative solutions that cater to the ever-evolving needs of our clients.</p>
                 </article>
 
                 <article>
-                    <h3>Teste 2</h3>
-                    <p>Now it's time to experience it firsthand!
-                        Take a free trial to see for yourself how this product can make a difference.
-                        Our trial offer allows you to get a taste of how it works and how it could meet your
-                        expectations.
+                    <h3>Advanced Design</h3>
+                    <p>We value experimentation and iteration to ensure that every detail of the product or brand is optimized for exceptional outcomes.
                     </p>
                 </article>
 
                 <article>
-                    <h3>Teste 3</h3>
-                    <p>Explore the innovative features that make this product unique.
-                        Learn how it can significantly improve your life.
-                        If you enjoyed the trial experience, consider upgrading to the full version. </p>
+                    <h3>Solutions</h3>
+                    <p>Our innovation shines through as we create customized and scalable solutions that resonate with each client's vision.  </p>
                 </article>
             </div>
         </div>
@@ -115,7 +110,7 @@
     <section id="gallery" class=" grid-one white-bg section">
         <div class="main-content grid-one-content">
             <h2 class="grid-main-heading">Gallery</h2>
-            <p class="grid-description">Uma breve decrição</p>
+            <p class="grid-description">We work for well being</p>
 
             <div class="grid">
                 <div class="gallery-img">
@@ -155,32 +150,26 @@
 
     <section id="grid-two" class=" grid-one main-bg section">
         <div class="main-content grid-one-content">
-            <h2 class="grid-main-heading">The Steps</h2>
-            <p class="grid-description">Uma breve decrição</p>
+            <h2 class="grid-main-heading">Our work</h2>
+            <p class="grid-description">These three steps encapsulate our workflow</p>
 
             <div class="grid">
                 <article>
-                    <h3>Teste 1</h3>
-                    <p>Explore the innovative features that make this product unique.
-                        Learn how it can significantly improve your life.
-                        Visit our page to gain insights into how our solution stands out from the competition and how it
-                        can meet your needs.</p>
+                    <h3>Strategic</h3>
+                    <p>From mobile app development to AI integration, we are constantly seeking ways to apply emerging technologies to create
+                         innovative solutions that cater to the ever-evolving needs of our clients.</p>
                 </article>
 
                 <article>
-                    <h3>Teste 2</h3>
-                    <p>Now it's time to experience it firsthand!
-                        Take a free trial to see for yourself how this product can make a difference.
-                        Our trial offer allows you to get a taste of how it works and how it could meet your
-                        expectations.
+                    <h3>Rapid Prototyping</h3>
+                    <p>Based on the gathered insights, our design team begins to bring your ideas to life. We employ 
+                        visionary design to create concepts that represent your brand exceptionally.  
                     </p>
                 </article>
 
                 <article>
-                    <h3>Teste 3</h3>
-                    <p>Explore the innovative features that make this product unique.
-                        Learn how it can significantly improve your life.
-                        If you enjoyed the trial experience, consider upgrading to the full version. </p>
+                    <h3>Development</h3>
+                    <p>The next step is the transformation of the concept into digital reality. Our highly skilled development team works to build functional products and engaging online experiences. . </p>
                 </article>
             </div>
         </div>
@@ -190,14 +179,11 @@
     <section id="pricing" class=" white-bg section">
         <div class="main-content top3-content">
             <h2>Pricing</h2>
-            <p>With a pioneering approach, TechInnovate Solutions is a
-                brand known for turning ambitious ideas into high-impact digital products.
-                Their knack for delving deep into customer needs and translating that into practical technological
-                solutions has been instrumental to their success.
+            <p>At TechBuild, efficiency is more than a word - it's a philosophy. We embrace agility and pro-activity at each stage,
+                ensuring projects are delivered on time and within budget
             </p>
-            <p>NexaTech Labs is synonymous with exceptional user experience. By blending user-centered design and
-                cutting-edge technology, they take a holistic approach to digital product building. Their solutions
-                not only meet functional needs but also provide an engaging and memorable journey for each user.
+            <p>Creativity is our innovation engine. Not only do we think outside the box, we redefine the box itself.
+                 Every solution we develop is unique and distilled from a bold mix of original ideas.
             </p>
 
             <div class="responsive-table">
@@ -206,35 +192,35 @@
 
                     <thead>
                         <tr>
-                            <th>Title 1</th>
-                            <th>Title 2</th>
-                            <th>Title 3</th>
-                            <th>Title 4</th>
-                            <th>Title 5</th>
+                            <th>Service</th>
+                            <th>Low Price</th>
+                            <th>Medium </th>
+                            <th>High </th>
+                            <th>Description</th>
                         </tr>
                     </thead>
 
                     <tbody>
                         <tr>
-                            <td>Content 1</td>
-                            <td>Content 2</td>
-                            <td>Content 3</td>
-                            <td>Content 4</td>
-                            <td>Content 5</td>
+                            <td>App</td>
+                            <td>$1000</td>
+                            <td>$3000</td>
+                            <td>$7000</td>
+                            <td>Ennovative</td>
                         </tr>
                         <tr>
-                            <td>Content 1</td>
-                            <td>Content 2</td>
-                            <td>Content 3</td>
-                            <td>Content 4</td>
-                            <td>Content 5</td>
+                            <td>Brand</td>
+                            <td>$500</td>
+                            <td>$1500</td>
+                            <td>$3000</td>
+                            <td>Engaging</td>
                         </tr>
                         <tr>
-                            <td>Content 1</td>
-                            <td>Content 2</td>
-                            <td>Content 3</td>
-                            <td>Content 4</td>
-                            <td>Content 5</td>
+                            <td>Digital </td>
+                            <td>$100</td>
+                            <td>$150</td>
+                            <td>$200</td>
+                            <td>Strategic</td>
                         </tr>
                     </tbody>
 
@@ -244,7 +230,7 @@
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td>Testando</td>
+                            <td>TOTAL</td>
                         </tr>
                     </tfoot>
                 </table>
@@ -255,19 +241,17 @@
     <section id="contact" class=" intro main-bg section">
         <div class="main-content intro-content">
             <div class="intro-text-content">
-                <h2>Building digital
-                    products & brands</h2>
-                <p>Quick can manor smart money hopes worth too.
-                    Comfort produce husband boy her had hearing.
-                    Law others theirs passed but wishes. You day real less till dear read.</p>
+                <h2>Join the Digital Revolution</h2>
+                <p>The future is online, and we're poised to build it with you. Join the digital revolution today.
+                     Get in touch to explore how TechBuild can elevate your digital presence to the next level. .</p>
             </div>
             <div class="intro-img">
-                <img src="assets/img/production.svg" alt="Representação de um logo: duas pessoas sentadas em uma mesa, olhando uma para a outra com interesse, enquanto focam a atenção na tela de um computador.
-     Um círculo envolve a cena, e um fundo cinza suave proporciona contexto.">
+                <img src="assets/img/undraw_personal_information_re_vw8a.svg" alt="Representação de um logo: uma mulher de cabelo
+                curto e preto segura uma linha que leva direto para uma página de contatos.">
             </div>
             <div class="contact-form">
                 <fieldset class="form-grid">
-                    <legend>Contact me </legend>
+                    <legend>Contact us</legend>
 
                     <div class="form-group">
                         <label for="fisrt-name">First name</label>
@@ -301,6 +285,8 @@
     <footer id="footer" class="footer white-bg">
         <p><a href=""> Feito com ♥ por Jéssica Gaspar </a> </p>
     </footer>
+
+    <a class="back-to-top" href="#">➤</a>
 
 </body>
 
